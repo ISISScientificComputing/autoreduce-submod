@@ -1,0 +1,3 @@
+[submodule "autoreduce-utils"]
+	path = autoreduce-utils
+	url = https://github.com/ISISScientificComputing/autoreduce-utils
