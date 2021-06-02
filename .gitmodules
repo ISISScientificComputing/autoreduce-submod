@@ -1,3 +1,18 @@
 [submodule "autoreduce-utils"]
 	path = autoreduce-utils
 	url = https://github.com/ISISScientificComputing/autoreduce-utils
+[submodule "autoreduce"]
+	path = autoreduce
+	url = https://github.com/ISISScientificComputing/autoreduce
+[submodule "autoreduce-frontend"]
+	path = autoreduce-frontend
+	url = https://github.com/ISISScientificComputing/autoreduce-frontend
+[submodule "autoreduce-db"]
+	path = autoreduce-db
+	url = https://github.com/ISISScientificComputing/autoreduce-db
+[submodule "autoreduce-containers"]
+	path = autoreduce-containers
+	url = https://github.com/ISISScientificComputing/autoreduce-containers
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/ISISScientificComputing/ansible
