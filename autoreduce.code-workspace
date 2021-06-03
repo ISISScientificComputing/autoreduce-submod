@@ -4,25 +4,19 @@
 			"path": "./autoreduce"
 		},
 		{
-			"path": "./autoreduce-ansible"
-		},
-		{
 			"path": "./autoreduce-containers"
 		},
 		{
 			"path": "./autoreduce-frontend"
 		},
 		{
-			"path": "./autoreduce_db"
+			"path": "./autoreduce-db"
 		},
 		{
-			"path": "./autoreduce_utils"
+			"path": "./autoreduce-utils"
 		},
 		{
-			"path": "./inter-plotting"
-		},
-		{
-			"path": "./kibana-log-monitor"
+			"path": "autoreduce-actions"
 		}
 	],
 	"settings": {
@@ -36,5 +30,6 @@
 		"python.linting.flake8Enabled": false,
 		"python.linting.enabled": true,
 		"python.formatting.provider": "yapf",
+		"python.pythonPath": "/home/dtasev/apps/miniconda3/envs/ar/bin/python",
 	},
 }

@@ -16,3 +16,6 @@
 [submodule "ansible"]
 	path = ansible
 	url = https://github.com/ISISScientificComputing/ansible
+[submodule "autoreduce-actions"]
+	path = autoreduce-actions
+	url = https://github.com/ISISScientificComputing/autoreduce-actions
