@@ -19,3 +19,6 @@
 [submodule "autoreduce-actions"]
 	path = autoreduce-actions
 	url = https://github.com/ISISScientificComputing/autoreduce-actions
+[submodule "autoreduce-scripts"]
+	path = autoreduce-scripts
+	url = https://github.com/ISISScientificComputing/autoreduce-scripts

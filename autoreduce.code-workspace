@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "autoreduce-actions"
+		},
+		{
+			"path": "autoreduce-scripts"
 		}
 	],
 	"settings": {
