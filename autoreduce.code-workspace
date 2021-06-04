@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "autoreduce-scripts"
+		},
+		{
+			"path": "ansible"
 		}
 	],
 	"settings": {
