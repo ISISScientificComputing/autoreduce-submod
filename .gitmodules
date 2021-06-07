@@ -26,3 +26,7 @@
 	path = ansible
 	url = https://github.com/ISISScientificComputing/ansible
 	branch = master
+[submodule "autoreduce"]
+	path = autoreduce
+	url = https://github.com/ISISScientificComputing/autoreduce
+	branch = master
