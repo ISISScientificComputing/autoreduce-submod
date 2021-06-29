@@ -1,2 +1,5 @@
 autoreduce*/
 ansible/
+
+# Ignore IDE files
+.idea/*
