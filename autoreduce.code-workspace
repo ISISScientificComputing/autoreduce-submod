@@ -23,6 +23,12 @@
 		},
 		{
 			"path": "ansible"
+		},
+		{
+			"path": "kibana-log-monitor"
+		},
+		{
+			"path": "autoreduce-rest-api"
 		}
 	],
 	"settings": {
@@ -36,6 +42,55 @@
 		"python.linting.flake8Enabled": false,
 		"python.linting.enabled": true,
 		"python.formatting.provider": "yapf",
-		"python.pythonPath": "/home/dtasev/apps/miniconda3/envs/ar/bin/python",
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Pytest",
+				"type": "python",
+				"request": "launch",
+				"module": "pytest",
+				"cwd": "${fileWorkspaceFolder}",
+				"args": [
+					"-v",
+					"${file}"
+				],
+				"django": true,
+				"presentation": {
+					"hidden": false,
+					"group": "autoreduce-test",
+				},
+				"env": {
+					"DISPLAY": ":1",
+					"RUNNING_VIA_PYTEST": "true",
+					"SELENIUM_REMOTE": "1",
+					"PYTHONPATH": "${fileWorkspaceFolder}"
+				},
+				"justMyCode": true
+			},
+			{
+				"name": "Pytest - coverage",
+				"type": "python",
+				"request": "launch",
+				"module": "pytest",
+				"args": [
+					"--cov-report",
+					"html",
+					"--cov=${fileWorkspaceFolder}",
+					"-v",
+					"${file}"
+				],
+				"presentation": {
+					"hidden": false,
+					"group": "autoreduce-test",
+				},
+				"env": {
+					"DISPLAY": ":1",
+					"RUNNING_VIA_PYTEST": "true",
+					"SELENIUM_REMOTE": "1"
+				}
+			},
+		]
 	},
 }

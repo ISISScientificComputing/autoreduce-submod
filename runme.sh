@@ -8,3 +8,4 @@ git clone https://github.com/ISISScientificComputing/autoreduce-actions
 git clone https://github.com/ISISScientificComputing/autoreduce-scripts
 git clone https://github.com/ISISScientificComputing/ansible
 git clone https://github.com/ISISScientificComputing/autoreduce
+git clone https://github.com/ISISScientificComputing/autoreduce-rest-api
