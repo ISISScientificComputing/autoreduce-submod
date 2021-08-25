@@ -2,11 +2,8 @@ autoreduce*/
 ansible/
 kibana*/
 
-# Ignore virtual environment
-venv/
-venv3/
-venv36/
-venv37/
+# Ignore virtual environments
+venv*/
 
 # Ignore IDE files
 .idea/*
