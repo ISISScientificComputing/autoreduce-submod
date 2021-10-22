@@ -62,7 +62,7 @@
 				"django": true,
 				"presentation": {
 					"hidden": false,
-					"group": "autoreduce-test",
+					"group": "autoreduce-a",
 				},
 				"env": {
 					"DISPLAY": ":1",
@@ -86,7 +86,7 @@
 				],
 				"presentation": {
 					"hidden": false,
-					"group": "autoreduce-test",
+					"group": "autoreduce-a",
 				},
 				"env": {
 					"DISPLAY": ":1",
