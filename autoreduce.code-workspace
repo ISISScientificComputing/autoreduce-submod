@@ -96,4 +96,18 @@
 			},
 		]
 	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Launch Python server at htmlcov",
+				"type": "shell",
+				"options": {
+					"cwd": "${fileWorkspaceFolder}"
+				},
+				"command": "python3 -m http.server 8151",
+				"problemMatcher": []
+			}
+		]
+	}
 }
