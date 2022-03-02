@@ -8,6 +8,7 @@ git clone https://github.com/autoreduction/autoreduce-actions
 git clone https://github.com/autoreduction/autoreduce-scripts
 git clone https://github.com/autoreduction/ansible
 git clone https://github.com/autoreduction/autoreduce
+git clone https://github.com/autoreduction/autoreduce-k8s
 git clone https://github.com/autoreduction/autoreduce-rest-api
 git clone https://github.com/autoreduction/autoreduce-notebooks
 

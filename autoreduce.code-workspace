@@ -16,6 +16,9 @@
 			"path": "./autoreduce-utils"
 		},
 		{
+			"path": "./autoreduce-k8s"
+		},
+		{
 			"path": "autoreduce-actions"
 		},
 		{
@@ -45,6 +48,9 @@
 		"python.linting.flake8Enabled": false,
 		"python.linting.enabled": true,
 		"python.formatting.provider": "yapf",
+		"yaml.schemas": {
+			"kubernetes://schema/v1@configmap": "file:///home/gnn83366/autoreduce-workspace/ansible/k8s/webapp/frontend-configmap.yaml"
+		},
 	},
 	"launch": {
 		"version": "0.2.0",
