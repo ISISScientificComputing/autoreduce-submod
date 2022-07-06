@@ -1,40 +1,40 @@
 {
 	"folders": [
 		{
-			"path": "./autoreduce"
+			"path": "./queue-processor"
 		},
 		{
-			"path": "./autoreduce-containers"
+			"path": "./containers"
 		},
 		{
-			"path": "./autoreduce-frontend"
+			"path": "./frontend"
 		},
 		{
-			"path": "./autoreduce-db"
+			"path": "./db"
 		},
 		{
-			"path": "./autoreduce-utils"
+			"path": "./utils"
 		},
 		{
-			"path": "./autoreduce-k8s"
+			"path": "./k8s"
 		},
 		{
-			"path": "autoreduce-actions"
+			"path": "./actions"
 		},
 		{
-			"path": "autoreduce-scripts"
+			"path": "./scripts"
 		},
 		{
-			"path": "ansible"
+			"path": "./ansible"
 		},
 		{
-			"path": "kibana-log-monitor"
+			"path": "./kibana-log-monitor"
 		},
 		{
-			"path": "autoreduce-rest-api"
+			"path": "./rest-api"
 		},
 		{
-			"path": "autoreduce-notebooks"
+			"path": "./notebooks"
 		}
 	],
 	"settings": {
@@ -48,9 +48,6 @@
 		"python.linting.flake8Enabled": false,
 		"python.linting.enabled": true,
 		"python.formatting.provider": "yapf",
-		"yaml.schemas": {
-			"kubernetes://schema/v1@configmap": "file:///home/gnn83366/autoreduce-workspace/ansible/k8s/webapp/frontend-configmap.yaml"
-		},
 	},
 	"launch": {
 		"version": "0.2.0",
