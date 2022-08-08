@@ -19,6 +19,9 @@
 			"path": "./k8s"
 		},
 		{
+			"path": "./k8s-infra"
+		},
+		{
 			"path": "./actions"
 		},
 		{
