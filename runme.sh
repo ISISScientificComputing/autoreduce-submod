@@ -9,7 +9,6 @@ git clone https://github.com/autoreduction/scripts
 git clone https://github.com/autoreduction/ansible
 git clone https://github.com/autoreduction/queue-processor
 git clone https://github.com/autoreduction/k8s
+git clone https://github.com/autoreduction/k8s-infra
 git clone https://github.com/autoreduction/rest-api
 git clone https://github.com/autoreduction/notebooks
-
-
